@@ -3,7 +3,7 @@ package cn.itcast.core.action;
 import java.io.*;
 public class Main {
 	public static void main(String[] args) {
-		readFileByLines("/itcastTax/WebRoot/WEB-INF/jsp/xzgl/bj.txt");
+		readFileByLines("/itcastTax/WebRoot/WEB-INF/jsp/xzgl/bj.txtyy");
 	}
 	
 	public static void readFileByLines(String fileName) {  
