@@ -84,11 +84,7 @@
                 </dl>
 
                 <dl>
-                    <dt><a class="xxfb" href="${ctx }nsfw/info_listUI.action" target="mainFrame"><b></b>**<s
-                            class="down"></s> </a></dt>
-                </dl>
-                <dl class="">
-                    <dt><a class="tssl" href="${ctx }nsfw/complain_listUI.action" target="mainFrame"><b></b>**<s
+                    <dt><a class="xxfb" href="${ctx}xzgl/xzgl_tw.action" target="mainFrame"><b></b>学术交流<s
                             class="down"></s> </a></dt>
                 </dl>
             </div>

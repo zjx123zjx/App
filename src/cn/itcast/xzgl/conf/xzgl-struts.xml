@@ -8,6 +8,7 @@
 		<action name="xzgl_*" class="cn.itcast.xzgl.action.Action" method="{1}">
 			<result name="{1}">/WEB-INF/jsp/xzgl/{1}.jsp</result>
 			<result name="bj">/WEB-INF/jsp/xzgl/bj.jsp</result><!-- 笔记单独处理 -->
+			<result name="tw">/WEB-INF/jsp/xzgl/tw.jsp</result><!-- 提问单独处理 -->
 		</action>
 	</package>
 

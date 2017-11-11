@@ -52,4 +52,32 @@ public class Action extends BaseAction {
 		return "bj";
 	}
 	
+	public String tw(){
+		return "tw";
+	}
+	
+	public String pro(){
+		HttpServletRequest request = ServletActionContext.getRequest();
+		String str = request.getParameter("tt");
+		System.out.println(str);   
+		
+		BufferedWriter out = null;     
+        try {     
+            out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("D:\\java\\myeclipse\\workspace\\itcastTax\\WebRoot\\WEB-INF\\jsp\\xzgl\\tw.txt", true)));     
+            out.write(str);     
+        } catch (Exception e) {     
+            e.printStackTrace();     
+        } finally {     
+            try {     
+                if(out != null){  
+                    out.close();     
+                }  
+            } catch (IOException e) {     
+                e.printStackTrace();     
+            }     
+        }
+		return "tw";
+	}
+	
+	
 }

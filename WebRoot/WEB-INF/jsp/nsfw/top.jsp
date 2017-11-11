@@ -1,5 +1,7 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-
+<%
+    pageContext.setAttribute("ctx", request.getContextPath()) ;
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
@@ -91,8 +93,7 @@
 		<div class="menu">
 			<ul class="clearfix">
 				<li><a href="${basePath}sys/home.action" target="_top">工作主页</a></li>
-                <li><a href="javascript:void(0);">行政管理</a></li>
-                <li><a href="javascript:void(0);">后勤服务</a></li>
+                <li><a href="/itcastTax/xzgl/xzgl_frame.action">在线学习</a></li>
                 <li><a href="javascript:void(0);">在线学习</a></li>
                 <li><a href="javascript:void(0);">纳税服务</a></li>
                 <li><a href="javascript:void(0);">我的空间</a></li>
