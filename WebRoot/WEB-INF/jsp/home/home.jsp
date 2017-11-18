@@ -86,10 +86,9 @@
 <div class="menu">
     <ul class="clearfix">
         <li class="hover"><a href="javascript:void(0);">工作主页</a></li>
-        <li><a href="${ctx }/xzgl/xzgl_frame.action">在线学习</a></li>
-        <li><a href="javascript:void(0);">在线学习</a></li>       
+        <li><a href="${ctx }/zxxx/zxxx_frame.action">在线学习</a></li>     
         <li><a href="${ctx }/nsfw/home_frame.action">纳税服务</a> </li>
-        <li><a href="javascript:void(0);">我的空间</a></li>
+        <li><a href="${ctx }/wdkj/wdkj_frame.action">我的空间</a></li>
     </ul>
 </div>
 <!-- }导航 -->

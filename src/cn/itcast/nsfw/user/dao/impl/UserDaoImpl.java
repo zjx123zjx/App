@@ -55,4 +55,10 @@ public class UserDaoImpl extends BaseDaoImpl<User> implements UserDao {
 		return query.list();
 	}
 
+	@Override
+	public void register(User user) {
+		// TODO Auto-generated method stub
+		getHibernateTemplate().save(user);
+	}
+
 }

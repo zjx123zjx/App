@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="wdkjHome-action" namespace="/wdkj" extends="base-default">
+		<action name="wdkj_*" class="cn.itcast.wdkj.action.Action" method="{1}">
+			<result name="{1}">/WEB-INF/jsp/wdkj/{1}.jsp</result>
+		</action>
+	</package>
+	
+	<package name="zxxxHome-action" namespace="/zxxx" extends="base-default">
+		<action name="zxxx_*" class="cn.itcast.wdkj.action.Action" method="{1}">
+			<result name="bjList">/WEB-INF/jsp/zxxx/left1.jsp</result>
+			<result name="frame">/WEB-INF/jsp/zxxx/frame.jsp</result>
+			<result name="left">/WEB-INF/jsp/zxxx/left.jsp</result>
+			<result name="top">/WEB-INF/jsp/zxxx/top.jsp</result>
+			<result name="bj">/WEB-INF/jsp/zxxx/jj.jsp</result>
+		</action>
+	</package>
+
+</struts>

@@ -48,7 +48,8 @@
 	<include file="cn/itcast/nsfw/info/conf/info-struts.xml"></include>
 	<!-- 包含投诉受理管理的struts配置文件 -->
 	<include file="cn/itcast/nsfw/complain/conf/complain-struts.xml"></include>
-	
+	<!-- 在线学习的Struts配置文件 -->
 	<include file="cn/itcast/xzgl/conf/xzgl-struts.xml"></include>
-
+    <!-- 我的空间的Struts配置文件 -->
+	<include file="cn/itcast/wdkj/conf/wdkj-struts.xml"></include>
 </struts>

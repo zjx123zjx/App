@@ -126,6 +126,7 @@ html { overflow-y: hidden;  }
                     	<s:password id="password" name="user.password" cssClass="password"  cssStyle="color: #767676" size="31"/>
                     </td>
                   </tr>
+                  
                 </table></td>
               </tr>
             </table></td>
@@ -143,12 +144,11 @@ html { overflow-y: hidden;  }
               </tr>
             </table></td>
           </tr>
+          
         </table>
-	    
 	  </div>   
        </div>
    </div>
-	<div class="foot">版权所有&nbsp;|&nbsp;国税局&nbsp;&nbsp;2014年</div>
 </div>
 </div>
 </s:form>

@@ -42,6 +42,7 @@
 			<list>
 				<value>classpath:cn/itcast/nsfw/*/entity/*.hbm.xml</value>
 				<value>classpath:cn/itcast/test/entity/*.hbm.xml</value>
+				<value>classpath:cn/itcast/zxxx/entity/*.hbm.xml</value>
 			</list>
 		</property>
 	</bean>
@@ -76,7 +77,8 @@
     <!-- 权限鉴定类 -->
     <bean id="permissionCheck" class="cn.itcast.core.permission.impl.PermissionCheckImpl"></bean>
     
-    <!-- 引入外部sprign配置文件 -->
+    <!-- 引入外部spring配置文件 -->
     <import resource="classpath:cn/itcast/*/conf/*-spring.xml"/>
     <import resource="classpath:cn/itcast/nsfw/*/conf/*-spring.xml"/>
+    <import resource="classpath:cn/itcast/wdkj/conf/wdkj-spring.xml"/>
 </beans>

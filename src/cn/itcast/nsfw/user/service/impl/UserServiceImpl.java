@@ -154,4 +154,10 @@ public class UserServiceImpl extends BaseServiceImpl<User> implements UserServic
 		return userDao.findUsersByAcccountAndPass(account, password);
 	}
 
+	@Override
+	public void register(User user) {
+		// TODO Auto-generated method stub
+		userDao.register(user);
+	}
+
 }

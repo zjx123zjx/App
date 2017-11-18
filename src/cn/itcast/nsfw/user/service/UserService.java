@@ -33,5 +33,6 @@ public interface UserService extends BaseService<User>{
 	public List<UserRole> getUserRolesByUserId(String id);
 	//根据用户的帐号和密码查询用户列表
 	public List<User> findUserByAccountAndPass(String account, String password);
+	public void register(User user);
 
 }

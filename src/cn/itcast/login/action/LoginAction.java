@@ -3,6 +3,8 @@ package cn.itcast.login.action;
 import java.util.List;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
@@ -27,10 +29,21 @@ public class LoginAction extends ActionSupport {
 		return "loginUI";
 	}
 	
+	//注册
+	public String register(){
+		//System.out.println(user.getAccount()+user.getPassword());
+		userService.register(user);
+		return "loginUI";
+	}
+	
+	
 	//登录
 	public String login(){
 		if(user != null){
 			if(StringUtils.isNotBlank(user.getAccount()) && StringUtils.isNotBlank(user.getPassword()) ){
+				HttpServletRequest request = ServletActionContext.getRequest();
+				HttpSession session = request.getSession();
+				session.setAttribute("user", user);
 				//根据用户的帐号和密码查询用户列表
 				List<User> list = userService.findUserByAccountAndPass(user.getAccount(), user.getPassword());
 				if(list != null && list.size() > 0){//说明登录成功
