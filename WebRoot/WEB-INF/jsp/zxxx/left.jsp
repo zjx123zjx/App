@@ -80,7 +80,7 @@
                     </a></dt>
                 </dl>
                 <dl>
-                <dt><a class="fwyy" href = "${ctx}/zxxx/zxxx_bjList.action" style="cursor: pointer;">我的笔记<s class="down"></s> </a></dt>
+                <dt><a class="fwyy" href = "${ctx}/zxxx/zxxx_bjList.action" style="cursor: pointer;"><b></b>我的笔记<s class="down"></s> </a></dt>
                     <dd id="fwyygl" style="display:none;">
                     	<c:forEach items="${list}" var="user">
                         	<a class="" href="#" target="mainFrame">${user.name1}222</a>

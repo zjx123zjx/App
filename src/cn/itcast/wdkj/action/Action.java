@@ -33,7 +33,7 @@ public class Action extends BaseAction {
 	public String frame(){
 		return "frame"; 
 	}
-	/*
+
 	public String Myself(){
 		user = (User) session.getAttribute("user");
 		user = userService1.Myself(user);
@@ -44,7 +44,6 @@ public class Action extends BaseAction {
 	public String MyCourse(){
 		return "MyCourse";
 	}
-	*/
 	public String bjList(){
 		ArrayList<Course> list = userService1.bjList();
 		session.setAttribute("list", list);

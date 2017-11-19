@@ -70,7 +70,7 @@ html { overflow-y: hidden;  }
     <div class="head">
       <table width="1000" height="60" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr>
-          <td width="840" align="left"><img src="${ctx}/images/login/form_03.png"   width="332" height="47"/></td>
+          <td width="840" align="left"><img src="${ctx}/images/login/jj.png"   width="332" height="47"/></td>
           <td align="center">&nbsp;&nbsp;<a href="#"></a></td>
         </tr>
       </table>

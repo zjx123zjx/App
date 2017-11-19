@@ -29,7 +29,7 @@
 		<tr>
 			<td width="26" height="106">&nbsp;</td>
 			<td width="416" height="110" align="left" valign="middle">
-				<img class="zxx_test_png" src="${basePath}images/home/ind01.png" width="470" height="90" alt="" />
+				 <div style="width: 470;height: 90"><font size="15px">信息管理平台</font></div>
 			</td>
 			<td width="135">&nbsp;</td>
 			<td width="418">
@@ -94,7 +94,7 @@
 			<ul class="clearfix">
 				<li><a href="${basePath}sys/home.action" target="_top">工作主页</a></li>
                 <li><a href="${basePath}zxxx/zxxx_frame.action" target="_top">在线学习</a></li>
-                <li><a href="${basePath}nsfw/home_frame.action" target="_top">纳税服务</a></li>
+                <li><a href="${basePath}nsfw/home_frame.action" target="_top">信息管理</a></li>
                 <li><a href="${basePath}wdkj/wdkj_frame.action" target="_top">我的空间</a></li>
 			</ul>
 		</div>

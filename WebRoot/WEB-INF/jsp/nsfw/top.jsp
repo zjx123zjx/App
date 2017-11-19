@@ -94,7 +94,7 @@
 			<ul class="clearfix">
 				<li><a href="${basePath}sys/home.action" target="_top">工作主页</a></li>
                 <li><a href="${basePath}zxxx/zxxx_frame.action" target="_top">在线学习</a></li>
-                <li><a href="${basePath}nsfw/home_frame.action" target="_top">纳税服务</a></li>
+                <li><a href="${basePath}nsfw/home_frame.action" target="_top">信息管理</a></li>
                 <li><a href="${basePath}wdkj/wdkj_frame.action" target="_top">我的空间</a></li>
 			</ul>
 		</div>

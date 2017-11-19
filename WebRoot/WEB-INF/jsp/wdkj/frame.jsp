@@ -8,7 +8,7 @@
 <html>
 <head>
     <base href="<%=basePath%>">
-    <title>国税协同办公平台-纳税服务</title>
+    <title>我的空间</title>
     <link href="${basePath}css/nsfw/css.css" rel="stylesheet" type="text/css" />
     <link href="${basePath}css/nsfw/style.css" rel="stylesheet" type="text/css" />
 </head>

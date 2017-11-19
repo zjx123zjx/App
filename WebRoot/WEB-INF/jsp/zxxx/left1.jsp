@@ -80,10 +80,10 @@
                     </a></dt>
                 </dl>
                 <dl>
-                <dt><a class="fwyy" href = "${ctx}/zxxx/zxxx_left.action" style="cursor: pointer;">我的笔记<s class="down"></s> </a></dt>
+                <dt><a class="fwyy" href = "${ctx}/zxxx/zxxx_left.action" style="cursor: pointer;"><b></b>我的笔记<s class="down"></s> </a></dt>
                     <dd id="fwyygl">
                     	<c:forEach items="${list}" var="user">
-                        	<a class="" href="${ctx}/zxxx/zxxx_bj.action?id=${user.id1}" target="mainFrame">${user.name1}</a>
+                        	<a class="" href="${ctx}/zxxx/zxxx_bj.action?id=${user.id1}" target="mainFrame"> >>${user.name1}</a>
                         </c:forEach>
                     </dd>
                   <!--  <c:forEach items="${list}" var="user">

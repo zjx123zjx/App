@@ -7,7 +7,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <title>国税协同办公平台</title>
+    <title>信息管理平台</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="${ctx}/css/home.css" rel="stylesheet" type="text/css" />
 
@@ -20,7 +20,7 @@
     <tr>
         <td width="32" height="106">&nbsp;</td>
         <td width="418" height="106" align="left" valign="middle">
-            <img class="zxx_test_png" src="${ctx}/images/home/ind01.png" width="470" height="90" alt="" />
+            <div style="width: 470;height: 90"><font size="15px">信息管理平台</font></div>
         </td>
         <td width="211">&nbsp;</td>
         <td width="328">
@@ -87,7 +87,7 @@
     <ul class="clearfix">
         <li class="hover"><a href="javascript:void(0);">工作主页</a></li>
         <li><a href="${ctx }/zxxx/zxxx_frame.action">在线学习</a></li>     
-        <li><a href="${ctx }/nsfw/home_frame.action">纳税服务</a> </li>
+        <li><a href="${ctx }/nsfw/home_frame.action">信息管理</a> </li>
         <li><a href="${ctx }/wdkj/wdkj_frame.action">我的空间</a></li>
     </ul>
 </div>
